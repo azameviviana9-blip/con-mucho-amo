@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Para mi Valentín 💘</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #ff9a9e, #fad0c4);
+      text-align: center;
+      font-family: Arial;
+      color: white;
+    }
+
+    h1 {
+      margin-top: 50px;
+      font-size: 40px;
+    }
+
+    button {
+      padding: 15px 25px;
+      font-size: 18px;
+      background-color: white;
+      color: #ff4b5c;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #ffe0e6;
+    }
+
+    #mensaje {
+      margin-top: 20px;
+      font-size: 22px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Hola mi amor 💖</h1>
+  <p>Te hice esta página porque sos muy especial para mí...</p>
+
+  <button onclick="mostrarMensaje()">Hace click acá 😳</button>
+
+  <p id="mensaje"></p>
+
+  <script>
+    function mostrarMensaje() {
+      document.getElementById("mensaje").innerHTML = "Sos lo mejor que me pasó ❤️ Te amo muchísimo";
+    }
+  </script>
+
+</body>
+</html>
